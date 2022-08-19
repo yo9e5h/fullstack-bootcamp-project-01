@@ -1,0 +1,169 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Orbitron", sans-serif;
+}
+
+img[alt="brand-logo"] {
+  height: 2.5rem;
+  width: full;
+}
+
+.navbar-container {
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.list-item {
+  font-size: 1rem;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.list-item:hover {
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.search-icon svg {
+  height: 1.5rem;
+}
+
+.nav-button {
+  padding: 0.5rem 3rem;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.square {
+  position: absolute;
+  top: 420px;
+  left: 300px;
+}
+
+img[alt="square-pattern"] {
+  height: 300px;
+  width: 300px;
+}
+img[alt="person-hero-iamge"] {
+  position: absolute;
+  top: 190px;
+  left: 160px;
+  width: 380px;
+  height: 480px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+img[alt="globe-pattern"] {
+  position: absolute;
+  top: 140px;
+  left: 800px;
+  height: 60px;
+  width: 60px;
+}
+img[alt="start-pattern"] {
+  position: absolute;
+  top: 180px;
+  left: 1200px;
+  height: 60px;
+  width: 60px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  top: 240px;
+  left: 650px;
+  padding-right: 2rem;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.hero-description {
+  padding: 0 4rem;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.button-email {
+  padding: 0.15rem 2rem;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Orbitron", sans-serif;
+  margin: 4rem 1rem 4rem 12rem;
+}
+
+.button-join {
+  padding: 0.15rem 2rem;
+  background-color: #000;
+  border: 2px solid #000;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Orbitron", sans-serif;
+  margin: 4rem 1rem 0 0;
+}
+
+.contact-heading {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+}
+.icons span{
+  padding: 0.5rem;
+}
+
+.icons img {
+  height: 2rem;
+  width: 2rem;
+}
